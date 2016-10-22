@@ -1,9 +1,11 @@
 I wanted to create a Swing app in Ceylon and figured I'd give using the IntelliJ UI designer a shot. 
 
-# Compiling & running
+# Compiling & running from the command line
 
     $ ceylon compile test
     $ ceylon run test
+
+You can of course also run it directly from the IntelliJ IDEA.
 
 # Steps to do it yourself
 Here are the necessary steps to get it to work:
