@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CEYLON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="ceylon" name="Ceylon">
+      <configuration>
+        <option name="compileForJvm" value="true" />
+        <option name="compileToJs" value="false" />
+        <option name="systemRepository" value="" />
+        Do not edit, modify .config/ide-config instead
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="/media/truecrypt-xkr47/ceylon/intellij/swingtest/modules" />
+    <output-test url="/media/truecrypt-xkr47/ceylon/intellij/swingtest/modules" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/source" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/modules" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Ceylon: ceylon.language/1.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Ceylon: com.intellij:forms_rt/7.0.3" level="project" />
+  </component>
+</module>
