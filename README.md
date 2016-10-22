@@ -64,3 +64,8 @@ IntelliJ IDEA creates a TestForm.form file with the form specification. This is 
 The generated TestForm.java typically depends on some intellij classes, which normally get added to the classpath of the java project, but in ceylon we need to add a dependency to the `forms_rt` maven module. One line in module.ceylon does it.
 
 Normally also the intellij compiler produces the gui-creating code directly into the bytecode of the TestForm class. Those class files do not get used by ceylon though, Ceylon compiles the class files independently I am told, so the bytecode gets lost. That's why we needed to configure the designer to output the code into the java code instead, so ceylon sees it.
+
+# Tips
+
+* Don't create listeners in the UI Designer unless you want to write them in Java (i.e. in TestForm.java)
+* [Generic UI Designer docmentation](https://www.jetbrains.com/help/idea/2016.2/swing-designing-gui.html)
