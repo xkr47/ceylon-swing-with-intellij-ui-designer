@@ -29,7 +29,7 @@ Here are the necessary steps to get it to work:
 
 ## Configure the module dependencies
 * Open the "module.ceylon" file in the `source/test` folder
-* Replace the contents with the same-named file in this gist
+* See [source/test/module.ceylon](source/test/module.ceylon) for an example
 
 ## Create a new GUI form
 * Right-click the `source/test` folder -> New -> GUI form
@@ -49,10 +49,10 @@ Here are the necessary steps to get it to work:
 * Name: "Test"
 
 ## Write the form code for TestForm in Test.ceylon
-* Replace the contents with the same-named file in this gist
+* See [source/test/Test.ceylon](source/test/Test.ceylon) for an example
 
 ## Write the main app code in main.ceylon
-* Replace the contents with the same-named file in this gist
+* See [source/test/main.ceylon](source/test/main.ceylon) for an example
 
 ## Run the app
 * Right-click the "run" of the `run()` method and choose "Run 'test.run'"
