@@ -1,4 +1,4 @@
-I wanted to create a Swing app in Ceylon and figured I'd give using the UI designer a shot. 
+I wanted to create a Swing app in Ceylon and figured I'd give using the IntelliJ UI designer a shot. 
 
 # Compiling & running
 
