@@ -1,6 +1,13 @@
-I wanted to create a Swing app in Ceylon and figured I'd give using the UI designer a shot. Here are the necessary steps to get it to work:
+I wanted to create a Swing app in Ceylon and figured I'd give using the UI designer a shot. 
 
-# Steps
+# Compiling & running
+
+    $ ceylon compile test
+    $ ceylon run test
+
+# Steps to do it yourself
+Here are the necessary steps to get it to work:
+
 ## Change IDEA settings
 * From the menu: File -> Settings
 * Navigate to Editor / GUI designer
