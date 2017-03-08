@@ -50,6 +50,7 @@ Here are the necessary steps to get it to work:
 
 ## Write the form code for TestForm in Test.ceylon
 * See [source/test/Test.ceylon](source/test/Test.ceylon) for an example
+* Please note that the ceylon `Test` class extends the generated `TestForm` class
 
 ## Write the main app code in main.ceylon
 * See [source/test/main.ceylon](source/test/main.ceylon) for an example
