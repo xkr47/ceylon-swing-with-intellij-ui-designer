@@ -62,7 +62,7 @@ Here are the necessary steps to get it to work:
 
 IntelliJ IDEA creates a TestForm.form file with the form specification. This is only used by IntelliJ. It also creates and updates TestForm.java which contains a TestForm class that sets up the whole form. Normally in a Java project one would write the form code directly into TestForm.java, but we want to do it in Ceylon.. So we create a Test.ceylon and there create a second class `Test` which extends the generated `TestForm`. Thanks to changing the accessibility setting to "package-private" our `Test` ceylon subclass can see the fields of the `TestForm` java class as normal. So then we can just use the `Test` ceylon class in place of `TestForm`.
 
-The generated TestForm.java typically depends on some intellij classes, which normally get added to the classpath of the java project, but in ceylon we need to add a dependency to the `forms_rt` maven module. One line in module.ceylon does it.
+The generated TestForm.java typically depends on some intellij classes, which normally get added to the classpath of the java project, but in ceylon we need to add a dependency to the `forms_rt` maven module. One line in [module.ceylon](source/test/module.ceylon) does it.
 
 Normally also the intellij compiler produces the gui-creating code directly into the bytecode of the TestForm class. Those class files do not get used by ceylon though, Ceylon compiles the class files independently I am told, so the bytecode gets lost. That's why we needed to configure the designer to output the code into the java code instead, so ceylon sees it.
 
